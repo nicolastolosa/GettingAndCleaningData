@@ -3,7 +3,7 @@ This codebook describes the characteristics of the output data and the meaning o
 
 ### DESCRIPTION OF CLEAN DATA
 
-- It is a data frame with 10300 observations and 81 variables
+- It is a data frame with 10299 observations and 81 variables
 - It is called "result.txt" and can be loaded into R with read.table function
 
 ### TRANSFORMATIONS APPLIED TO RAW DATA

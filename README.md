@@ -1,4 +1,4 @@
-IMPORTANT NOTE: dplyr package is needed for executing the code.
+**IMPORTANT NOTE:** dplyr package is needed for executing the code.
 
 ### PROCESS TO OBTAIN CLEAN DATA
 
@@ -8,7 +8,7 @@ IMPORTANT NOTE: dplyr package is needed for executing the code.
 4. Clean data will appear in the working directory as "result.txt"
 
 
-## EXPLAINATION OF THE CODE
+### EXPLAINATION OF THE CODE
 The way the code works is explained in the following list.
 
 1. First data out of the folders "train" and "test" is loades into "features" and "activity_labels" variables.
