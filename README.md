@@ -1,6 +1,6 @@
 IMPORTANT NOTE: dplyr package is needed for executing the code.
 
-###PROCESS TO OBTAIN CLEAN DATA
+### PROCESS TO OBTAIN CLEAN DATA
 
 1. Download raw data from "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 2. UnZip de file in the working directory
@@ -8,7 +8,7 @@ IMPORTANT NOTE: dplyr package is needed for executing the code.
 4. Clean data will appear in the working directory as "result.txt"
 
 
-##EXPLAINATION OF THE CODE
+## EXPLAINATION OF THE CODE
 The way the code works is explained in the following list.
 
 1. First data out of the folders "train" and "test" is loades into "features" and "activity_labels" variables.
