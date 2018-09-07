@@ -3,7 +3,7 @@ This codebook describes the characteristics of the output data and the meaning o
 
 ### DESCRIPTION OF CLEAN DATA
 
-- It is a data frame with 10299 observations and 81 variables
+- It is a data frame with 10299 observations and 6 variables
 - It is called "result.txt" and can be loaded into R with read.table function
 
 ### TRANSFORMATIONS APPLIED TO RAW DATA
@@ -18,6 +18,6 @@ This codebook describes the characteristics of the output data and the meaning o
 
 1. name: subject  class: factor  meaning: Integer from 1 to 30 indicating the ID of the subject that performed the measure
 2. name: activity  class: factor  meaning: Name of the activity that the subject was performing when the measure took place
-3. (from column 3 to 89): features from the measures that refer to a mean or standard deviation value. For further information about features check "features_info.txt" 
+3. (from column 3 to 6): Components X,Y,Z of features tBodyAcc-mean and tBodyAcc-std. For further information about features check "features_info.txt" 
 
 

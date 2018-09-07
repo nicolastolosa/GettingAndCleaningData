@@ -10,7 +10,7 @@ run_analysis <- function(){
     
 
     features <- read.table("UCI HAR Dataset/features.txt", stringsAsFactors = F)
-    selection <- grep(("mean|std"),features[,2], value = F)                 ##Vector with index of features containing "mean" or "std"
+    selection <- grep(("tBodyAcc-mean|tBodyAcc-std"),features[,2], value = F)                 ##Vector with index of features containing "mean" or "std"
     features <- features[selection,2]                                       ##Character vector corresponding to features
     
     
@@ -57,11 +57,12 @@ run_analysis <- function(){
     
     data <- rbind(data_test, data_train)
     data <- arrange(data, subject)
-    rm(list=(ls()[ls()!="data"]))                                           ##Remove all variables except data
     
     
     ## Create new dataset out of the data folder
     
     write.table(data, file="result.txt", row.names=F)
+
+    
 
 }
